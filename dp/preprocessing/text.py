@@ -56,7 +56,7 @@ class SequenceTokenizer:
                  char_repeats: int,
                  lowercase: bool = True,
                  append_start_end: bool =True,
-                 pad_token='_',
+                 pad_token='—',
                  end_token='<end>') -> None:
         """
         Initializes a SequenceTokenizer object.
